@@ -1,0 +1,6 @@
+{
+    "require": {
+        "cloudflare/sdk": "^1.1",
+        "php-heroku-client/php-heroku-client": "^1.3"
+    }
+}
