@@ -1,7 +1,7 @@
 <?php
 require_once('vendor/autoload.php');
 
-$key = new \Cloudflare\API\Auth\APIKey('bpohon665@gmail.com', '637ecb82025b092135933142eeef8550f8a66');
+$key = new \Cloudflare\API\Auth\APIKey('xxx', 'xxx');
 $adapter = new Cloudflare\API\Adapter\Guzzle($key);
 $zones = new \Cloudflare\API\Endpoints\Zones($adapter);
 $dns = new \Cloudflare\API\Endpoints\DNS($adapter);
